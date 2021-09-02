@@ -1,0 +1,145 @@
+/* .mybody {
+	margin: 0;
+	width: 100%;
+	height: calc(100vh - 56px);
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+
+.mycontainer {
+	width: 100%;
+	/* position: fixed; */
+	/* text-align: center; */
+    justify-content: center;
+    color: white;
+    height: calc(100vh - 56px);
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	
+}
+
+.bg-drop {
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	background: linear-gradient(-45deg, #ee7752, #72b486, #23a6d5, #23d5ab);
+	/* background: linear-gradient(-45deg, #40385e, #3a3a61, #2e4661, #41446d); */
+	/* background: linear-gradient(-45deg, #8aaaaf, #66858a, #516669, #596e72); */
+	background-size: 400% 400%;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	animation: gradientBG 15s ease infinite;
+}
+
+.bg-drop theme2{
+	background: linear-gradient(-45deg, #40385e, #3a3a61, #2e4661, #41446d);
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.myparticles{
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;	
+}
+
+.mid_content{
+	margin-top: 25%;
+	font-family: cursive;
+}
+
+h2{
+	font-family: cursive;
+	
+}
+
+h4{
+	font-family: cursive;
+	color: #001627;
+}
+
+.card-home{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 350px;
+	padding: 50px;
+	border-radius: 50px;
+	text-align: center;
+    /* margin-right: 3rem; */
+}
+
+.card:hover .gradient{
+    opacity: 1;
+}
+
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(0deg, #e90606, transparent);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.left-button{
+    color:#cce6ff;
+    background-color: #2e4661;
+    transition: 1.5s;
+    border: 5px solid #2e4661;
+    border-radius: 50px;
+    width: 200px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-typical{
+	color:#cce6ff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (max-width: 768px) { 
+	.left_content{
+		display: none;
+	}
+
+	.right_content{
+		display: none;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.card{
+		height: 240px;
+		width: 270px;
+		padding: 37px;
+	}
+}
+
+

@@ -1,0 +1,15 @@
+.dashboard-analysis-card{
+    max-height: 550px;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.dashboard-analysis-card .card-body {
+    padding: 1rem 0rem;
+}
+
+.dashboard-analysis-card .img-area,
+.dashboard-analysis-card .card-title,
+.dashboard-analysis-card .card-text {
+    width: 600px;
+}

@@ -102,9 +102,6 @@ const SignUp = () => {
                     type="email"
                     value={data.email}
                     name="email"
-                    // onChange={(e) =>
-                    //   setData({ ...data, [e.target.name]: e.target.value })
-                    // }
                     onChange={onInputHandler}
                     autoComplete="off"
                     required
@@ -120,9 +117,6 @@ const SignUp = () => {
                     type="password"
                     value={data.password}
                     name="password"
-                    // onChange={(e) =>
-                    //   setData({ ...data, [e.target.name]: e.target.value })
-                    // }
                     onChange={onInputHandler}
                     required
                   />
@@ -137,9 +131,6 @@ const SignUp = () => {
                     type="password"
                     value={data.confirmPassword}
                     name="confirmPassword"
-                    // onChange={(e) =>
-                    //   setData({ ...data, [e.target.name]: e.target.value })
-                    // }
                     onChange={onInputHandler}
                     required
                   />
@@ -148,8 +139,8 @@ const SignUp = () => {
                   ) : null}
                 </Form.Group>
 
-                <div className="d-grid gap-2 login-button my-4">
-                  <button className="btn btn-secondary my-3" type="submit">
+                <div className="d-grid gap-2 login-button ">
+                  <button className="btn btn-secondary mt-2" type="submit">
                     Sign Up
                   </button>
                   <Link to="/login" style={{ textDecoration: "none" }}>

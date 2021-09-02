@@ -1,0 +1,101 @@
+[
+    {
+        "filename": "72499026.0.0.jpg",
+        "imageurl": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/72499026.0.0.jpg",
+        "labelimageurl": {
+            "msg": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/label-72499026.0.0.jpg",
+            "status": "True"
+        },
+        "labels": {
+            "car": 15,
+            "truck": 2
+        },
+        "colorimageurl": {
+            "msg": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/color-72499026.0.0.jpg",
+            "status": "True"
+        },
+        "platesimageurl": {
+            "msg": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/plates-72499026.0.0.jpg",
+            "status": "True"
+        },
+        "imageDir": "/home/anwar/imgCaptionCores/api_MindroverDjango/static/arsalan@codexnow.com-collection-116/72499026.0.0.jpg",
+        "pdfurl": "https://mindrover.ai:5005/arsalan@codexnow.com-collection-116.pdf",
+        "nlpresult": [
+            "POS Tagging:  {'Determiner': ['a', 'the', 'A'], 'Noun, singular or mass': ['man', 'shirt', 'bench', 'group', 'road', 'train', 'background', 'highway', 'traffic'], 'Preposition or subordinating conjunction': ['in', 'on', 'of', 'with'], 'Adjective': ['red', 'black', 'next'], 'Coordinating conjunction': ['and'], 'Verb, 3rd person singular present': ['is'], 'Verb, gerund or present participle': ['standing'], '.': ['.'], 'Noun, plural': ['people', 'lots'], 'Verb, past participle': ['filled'], 'to': ['to']}",
+            "Sentiment Analysis  {'polarity': 0.05833333333333334, 'subjectivity': 0.33333333333333337, 'emotion': 'Weakly Positive'}"
+        ],
+        "captionresult": "<start> a group of people on a road with a train in the background . <end> |  <start> A highway filled with lots of traffic next to a highway. <end> ",
+        "info_data": {
+            "FileSize": "165.984 KB",
+            "UploadTime": "Wed Mar 10 11:33:23 2021",
+            "Algorithm": "dense",
+            "CoreType": "None",
+            "FileName": "72499026.0.0.jpg"
+        },
+        "graph_performance_data": {
+            "CPU USAGE": 62.7,
+            "MEMORY USAGE": 20.3
+        },
+        "matrics": {
+            "BLEU-4": 0.259,
+            "METEOR": 37.1,
+            "ROUGE": 81.2,
+            "CIDEr": 204.2,
+            "SPICE": 42.1,
+            "BAD_COUNT_RATE": 0.0082,
+            "ACCURACY": 73.91,
+            "VAL_BLEU": 0.146,
+            "VAL_LOSS": 4.622,
+            "mAP": 74.01
+        }
+    },
+    {
+        "filename": "Mountain.jpg",
+        "imageurl": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/Mountain.jpg",
+        "labelimageurl": {
+            "msg": "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/label-Mountain.jpg",
+            "status": "True"
+        },
+        "labels": {
+            "bicycle": 1
+        },
+        "colorimageurl": {
+            "msg": "'AxesSubplot' object is not iterable",
+            "status": "False"
+        },
+        "platesimageurl": {
+            "msg": "'AxesSubplot' object is not iterable",
+            "status": "False"
+        },
+        "imageDir": "/home/anwar/imgCaptionCores/api_MindroverDjango/static/arsalan@codexnow.com-collection-116/Mountain.jpg",
+        "pdfurl": "https://mindrover.ai:5005/arsalan@codexnow.com-collection-116.pdf",
+        "nlpresult": [
+            "POS Tagging:  {'Determiner': ['a', 'A'], 'Noun, singular or mass': ['man', 'shirt', 'bench', 'bike', 'hand', 'hill'], 'Preposition or subordinating conjunction': ['in', 'on', 'with'], 'Adjective': ['red', 'black', 'next'], 'Coordinating conjunction': ['and'], 'Verb, 3rd person singular present': ['is'], 'Verb, gerund or present participle': ['standing'], '.': ['.'], 'Possessive pronoun': ['his'], 'to': ['to']}",
+            "Sentiment Analysis  {'polarity': -0.05555555555555555, 'subjectivity': 0.14444444444444446, 'emotion': 'Weakly Negative'}"
+        ],
+        "captionresult": "<start> a man is standing on a bike with a bike in his hand . <end> |  <start> A man standing next to a bike on a hill. <end> ",
+        "info_data": {
+            "FileSize": "115.811 KB",
+            "UploadTime": "Wed Mar 10 11:33:23 2021",
+            "Algorithm": "dense",
+            "CoreType": "None",
+            "FileName": "Mountain.jpg"
+        },
+        "graph_performance_data": {
+            "CPU USAGE": 67.2,
+            "MEMORY USAGE": 20.9
+        },
+        "matrics": {
+            "BLEU-4": 0.259,
+            "METEOR": 37.1,
+            "ROUGE": 81.2,
+            "CIDEr": 204.2,
+            "SPICE": 42.1,
+            "BAD_COUNT_RATE": 0.0082,
+            "ACCURACY": 73.91,
+            "VAL_BLEU": 0.146,
+            "VAL_LOSS": 4.622,
+            "mAP": 74.01
+        }
+    }
+]

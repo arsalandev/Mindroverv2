@@ -1,0 +1,11 @@
+
+
+.features-pic{
+    height: 250px;
+    width: 100%;
+}
+
+.overflow-detail{
+    height: 150px;
+    overflow-y: auto;
+}

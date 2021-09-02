@@ -35,7 +35,7 @@ const Login = () => {
                 <Form.Control type="password" autoComplete="off" />
               </Form.Group>
 
-         <Link to="/postlogin" style={{textDecoration:'none'}}>
+         <Link to="/dashboardone" style={{textDecoration:'none'}}>
                 <div className="d-grid gap-2 login-button" >
                   <button className="btn btn-secondary" type="submit" >
                     Login
@@ -55,7 +55,7 @@ const Login = () => {
                     <hr />
                   </Col>
                   <Col>
-                    <h5>What new?</h5>
+                    <h5>What's new?</h5>
                   </Col>
                   <Col>
                     <hr />

@@ -1,0 +1,17 @@
+.picture-dashboard-body{
+    height: calc(100vh - 56px);
+    padding: 0 30px;
+}
+
+.pic-dash-slider{
+    height: calc(100vh - 94px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-dashboard{
+    display: flex;
+    justify-content: flex-end;
+    
+}

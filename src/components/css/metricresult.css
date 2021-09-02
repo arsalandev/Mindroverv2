@@ -1,0 +1,8 @@
+.metrics-card{
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.chart1 {
+    width: 385px;
+}

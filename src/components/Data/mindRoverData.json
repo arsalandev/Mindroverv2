@@ -1,0 +1,138 @@
+[
+    {
+        "filename": "collection-116",
+        "uploadtime": "10-03-2021 11:33:23",
+        "filesize": "281.8 KB",
+        "algorithm": "dense",
+        "imagesUrls": [
+            "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/72499026.0.0.jpg",
+            "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-116/Mountain.jpg"
+        ],
+        "count": 2,
+        "type": "multiple",
+        "filetype": "MultiCollection"
+    },
+    {
+        "filename": "1920x1080_new-caledonia-south-pacific-767.jpg",
+        "uploadtime": "10-03-2021 11:17:09",
+        "filesize": "684.62 KB",
+        "algorithm": "dense",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-1920x1080_new-caledonia-south-pacific-767.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "mount-bromo-wallpapers-27965-7717698-899.jpg",
+        "uploadtime": "03-02-2021 11:55:00",
+        "filesize": "588.49 KB",
+        "algorithm": "dense",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-mount-bromo-wallpapers-27965-7717698-899.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "1_EM5DO3idvRu3-k_HS_b92Q-105.jpeg",
+        "uploadtime": "28-01-2021 11:09:38",
+        "filesize": "3.33 MB",
+        "algorithm": "dense",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-1_EM5DO3idvRu3-k_HS_b92Q-105.jpeg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpeg"
+    },
+    {
+        "filename": "tet1-553.jpg",
+        "uploadtime": "26-01-2021 11:32:17",
+        "filesize": "186.87 KB",
+        "algorithm": "dense",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-tet1-553.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "New etl-929.jpg",
+        "uploadtime": "03-11-2020 10:52:25",
+        "filesize": "2.65 MB",
+        "algorithm": "dense",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-New etl-929.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "Bhutan-cars-956.jpg",
+        "uploadtime": "03-11-2020 10:43:15",
+        "filesize": "83.79 KB",
+        "algorithm": "alexnet",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-Bhutan-cars-956.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "office-277.jpg",
+        "uploadtime": "03-11-2020 10:33:48",
+        "filesize": "133.39 KB",
+        "algorithm": "resnet152",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-office-277.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "differentbetweenmanagers_1280px_6ff740766577423296645a543492fe6f-295.jpeg",
+        "uploadtime": "03-11-2020 10:29:41",
+        "filesize": "91.84 KB",
+        "algorithm": "alexnet",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-differentbetweenmanagers_1280px_6ff740766577423296645a543492fe6f-295.jpeg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpeg"
+    },
+    {
+        "filename": "people-5059064_1920-15.jpg",
+        "uploadtime": "03-11-2020 10:06:24",
+        "filesize": "607.72 KB",
+        "algorithm": "alexnet",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-people-5059064_1920-15.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "office-work-1-607.jpg",
+        "uploadtime": "16-10-2020 10:55:16",
+        "filesize": "283.48 KB",
+        "algorithm": "vgg",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-office-work-1-607.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "felix-mittermeier-700449-unsplash-53.jpg",
+        "uploadtime": "14-10-2020 11:01:27",
+        "filesize": "12.24 MB",
+        "algorithm": "vgg",
+        "imagesUrls": "https://mindrover.ai:5005/static/arsalan@codexnow.com-felix-mittermeier-700449-unsplash-53.jpg",
+        "count": 1,
+        "type": "single",
+        "filetype": "jpg"
+    },
+    {
+        "filename": "collection-544",
+        "uploadtime": "14-10-2020 10:57:09",
+        "filesize": "1.37 MB",
+        "algorithm": "vgg",
+        "imagesUrls": [
+            "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-544/lake-lucerne-3840x2160-switzerland-landscape-lake-mountain-4k-15261.jpg",
+            "https://mindrover.ai:5005/static/arsalan@codexnow.com-collection-544/lake-lucerne-isenthal-switzerland-alps-firvaldshtetskoe-ozer.jpg"
+        ],
+        "count": 2,
+        "type": "multiple",
+        "filetype": "MultiCollection"
+    }
+]
