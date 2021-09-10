@@ -134,12 +134,12 @@ h4{
 	}
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+/* @media (min-width: 992px) and (max-width: 1200px) {
 	.card{
 		height: 240px;
 		width: 270px;
 		padding: 37px;
 	}
-}
+} */
 
 

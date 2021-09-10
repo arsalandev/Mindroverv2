@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, ListGroup, Row, Col } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import Data from "./Data/mindRoverSingleData.json";
 import "./css/analysiscards.css";
 
@@ -62,11 +62,11 @@ const AnalysisCards = () => {
         </Card>
       </CardGroup> */}
 
-      <Row className="justify-content-around">
-        <Col xl={2} lg={4}>
+      
+        <Col xl={3} lg={3} md={6} sm={12}>
           <Card >
             <div className="features-pic">
-              <Card.Img variant="top" src={Data[0].imageurl} />
+              <Card.Img variant="top" style={{height: "100%", objectFit: "cover"}} src={Data[0].imageurl} />
             </div>
             <Card.Body className="overflow-detail">
               <Card.Title>Original Image</Card.Title>
@@ -79,10 +79,10 @@ const AnalysisCards = () => {
           </Card>
         </Col>
 
-        <Col xl={2} lg={4}>
+        <Col xl={3} lg={3} md={6} sm={12}>
           <Card >
             <div className="features-pic">
-              <Card.Img variant="top" src={Data[0].colorimageurl.msg} />
+              <Card.Img variant="top" style={{height: "100%", objectFit: "cover"}} src={Data[0].colorimageurl.msg} />
             </div>
             <Card.Body className="overflow-detail">
               <Card.Title>Color Image</Card.Title>
@@ -94,10 +94,10 @@ const AnalysisCards = () => {
           </Card>
         </Col>
 
-        <Col xl={2} lg={4}>
+        <Col xl={3} lg={3} md={6} sm={12}>
           <Card >
             <div className="features-pic">
-              <Card.Img variant="top" src={Data[0].labelimageurl.msg} />
+              <Card.Img variant="top" style={{height: "100%", objectFit: "cover"}} src={Data[0].labelimageurl.msg} />
             </div>
             <Card.Body className="overflow-detail">
               <Card.Title>Label Image</Card.Title>
@@ -109,10 +109,10 @@ const AnalysisCards = () => {
           </Card>
         </Col>
 
-        <Col xl={2} lg={4}>
-          <Card>
+        <Col xl={3} lg={3} md={6} sm={12}>
+          <Card >
             <div className="features-pic">
-              <Card.Img variant="top" src={Data[0].platesimageurl.msg} />
+              <Card.Img variant="top" style={{height: "100%", objectFit: "cover"}} src={Data[0].platesimageurl.msg} />
             </div>
             <Card.Body className="overflow-detail">
               <Card.Title>Plates Image</Card.Title>
@@ -124,22 +124,22 @@ const AnalysisCards = () => {
           </Card>
         </Col>
 
-        {/* <Col xl={2} lg={4}>
-          <Card>
-            <ListGroup variant="flush">
-            <Card.Header>Upload Details</Card.Header>
-              <ListGroup.Item>File Size: {Data[0].info_data.FileSize}</ListGroup.Item>
-              <ListGroup.Item>Upload Time: {Data[0].info_data.UploadTime}</ListGroup.Item>
-              <ListGroup.Item>Algorithm: {Data[0].info_data.Algorithm}</ListGroup.Item>
-              <ListGroup.Item>Core type: {Data[0].info_data.CoreType}</ListGroup.Item>
-              <ListGroup.Item>File Name: {Data[0].info_data.FileName}</ListGroup.Item>
-              <Card.Header>Image Labels</Card.Header>
-              <ListGroup.Item>Cars: {Data[0].labels.car} </ListGroup.Item>
-              <ListGroup.Item>Truck: {Data[0].labels.truck}</ListGroup.Item>
-            </ListGroup>
-          </Card>
-        </Col> */}
-      </Row>
+      {/* {Data.map((data, i) =>{
+         <Card >
+         <div className="features-pic">
+           <Card.Img variant="top" style={{height: "100%", objectFit: "cover"}} src={data[0].imageurl} />
+         </div>
+         <Card.Body className="overflow-detail">
+           <Card.Title>Original Image</Card.Title>
+           <Card.Text >
+             Some quick example text to build on the card title and make up
+             the bulk of the card's content.
+             
+           </Card.Text>
+         </Card.Body>
+       </Card>
+      })} */}
+      
     </>
   );
 };

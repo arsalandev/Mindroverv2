@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Typical from "react-typical";
 import "./css/getstarted.css";
-import { Figure, Row, Col, Button } from "react-bootstrap";
+import { Figure, Row, Col} from "react-bootstrap";
 import { Particles } from "react-particles-js";
 //import { tsParticles } from "tsparticles";
 

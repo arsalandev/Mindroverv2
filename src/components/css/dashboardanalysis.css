@@ -1,6 +1,7 @@
 .dashboard-analysis-card{
-    max-height: 550px;
-    overflow-y: auto;
+    max-height: 465px;
+    height: 100%;
+    /* overflow-y: auto; */
     padding: 1rem;
 }
 
@@ -11,5 +12,10 @@
 .dashboard-analysis-card .img-area,
 .dashboard-analysis-card .card-title,
 .dashboard-analysis-card .card-text {
-    width: 600px;
+    max-width: 600px;
 }
+
+/* .image-upload > input
+{
+    display: none;
+} */
