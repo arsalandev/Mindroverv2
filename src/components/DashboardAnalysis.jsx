@@ -5,18 +5,18 @@ import Data from "./Data/mindRoverSingleData.json";
 import Data2 from "./Data/mindRoverData.json";
 import { FaRegFilePdf } from "react-icons/fa";
 
-const DashboardAnalysis = () => {
+const DashboardAnalysis = (props) => {
+  const dataRecieved = props.onlyImage;
+
   return (
     <>
       <Container fluid>
         <Card className="dashboard-analysis-card">
           <Row>
             <Col xxl={10} xl={10} lg={10} md={10} sm={10}>
-              <Card.Img
-                className="rounded"
-                variant="top"
-                src={Data[0].imageurl}
-              />
+          
+                <Card.Img variant="top" style={{height: '300px'}} src={dataRecieved.imagesUrls} />
+             
             </Col>
             <Col xxl={2} xl={2} lg={2} md={2} sm={2}>
               <div className="d-flex justify-content-center">

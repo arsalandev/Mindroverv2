@@ -3,7 +3,13 @@ import RecentImages from "./RecentImages";
 import "./css/picturedashboard.css";
 import { Container, Button } from "react-bootstrap";
 
-const PictureDashboard = () => {
+const PictureDashboard = (props) => {
+
+const savePictureData = (incomingData) =>{
+  // console.log("from picture dashboard", incomingData);
+  props.onSavePictureData2(incomingData);
+};
+
 
 
   return (
@@ -17,7 +23,7 @@ const PictureDashboard = () => {
             </Button>
           </div>
           <div className="pic-dash-slider">
-            <RecentImages />
+            <RecentImages onSavePictureData={savePictureData}/>
           </div>
         </div>
       </Container>

@@ -9,30 +9,19 @@ import "swiper/components/scrollbar/scrollbar.min.css";
 import { Card } from "react-bootstrap";
 import Data from "./Data/mindRoverData.json";
 import { AiFillPlayCircle } from "react-icons/ai";
+import { useHistory } from "react-router-dom";
 
 SwiperCore.use([Pagination, Navigation, Scrollbar]);
 
 const RecentImages = (props) => {
-  // const [Data1, setData] = useState([])
+  const history = useHistory();
 
-  // const getData= async ()=>{
-  //   const res = await fetch('/Data/mindRoverData.json')
-  //     console.log(JSON.stringify(res))
-  //     return res
-  // }
-  // useEffect(()=>{
-  //   getData()
-  //   setData(getData())
-  //   setData(Data)
-  //   return () => {
-  //     setData([])
-  //   }
-  // },[])
-
- const pictureChangeHandler = (i) =>{
-   let mydata = Data[i]
-   console.log(mydata);
- }
+  const pictureChangeHandler = (i) => {
+    history.push("/dashboardone");
+    const mydata = Data[i];
+    //  console.log(mydata);
+    props.onSavePictureData(mydata);
+  };
 
   return (
     <>
@@ -69,7 +58,10 @@ const RecentImages = (props) => {
                       color: "white",
                     }}
                   >
-                    <AiFillPlayCircle size="2em" onClick={()=> pictureChangeHandler(i)}/>
+                    <AiFillPlayCircle
+                      size="2em"
+                      onClick={() => pictureChangeHandler(i)}
+                    />
                   </div>
                 </div>
               ) : (
@@ -108,7 +100,10 @@ const RecentImages = (props) => {
                             color: "white",
                           }}
                         >
-                          <AiFillPlayCircle size="2em" />
+                          <AiFillPlayCircle
+                            size="2em"
+                            onClick={() => pictureChangeHandler(i)}
+                          />
                         </div>
                       </div>
                     </SwiperSlide>

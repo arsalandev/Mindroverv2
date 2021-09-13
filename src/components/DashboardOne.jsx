@@ -4,14 +4,19 @@ import DashboardAnalysis from "./DashboardAnalysis";
 import MetricsResult from "./MetricsResult";
 import AnalysisCards from "./AnalysisCards";
 
-const Dashboardone = () => {
+
+const Dashboardone = (props) => {
+
+  const incomingData3 = props.sendingPictureData
+  console.log("from dashboardone", incomingData3)
+
   return (
     <>
       <Container fluid>
         <div>
           <Row className="mt-3">
             <Col xl={5} lg={6} md={12} sm={12}>
-              <DashboardAnalysis />
+              <DashboardAnalysis onlyImage={incomingData3}/>
             </Col>
 
             <Col xl={7} lg={6} md={12} sm={12}>
