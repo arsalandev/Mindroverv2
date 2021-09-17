@@ -20,7 +20,7 @@ const Dashboardone = (props) => {
             </Col>
 
             <Col xl={7} lg={6} md={12} sm={12}>
-              <MetricsResult />
+              <MetricsResult onlyMetrics={incomingData3}/>
             </Col>
           </Row>
         </div>

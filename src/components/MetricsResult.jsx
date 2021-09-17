@@ -4,8 +4,13 @@ import { Row, Col, Container, Card } from "react-bootstrap";
 import "./css/metricresult.css";
 import Data from "./Data/mindRoverSingleData.json";
 import { Doughnut } from "react-chartjs-2";
+import singleData from './Data/mindRoverSingleData.json';
 
-const MetricResults = () => {
+const MetricResults = (props) => {
+
+  const metricsRecieved = props.onlyMetrics;
+  console.log("From metrics result", metricsRecieved)
+
   const data = {
     labels: ["Cpu Usage", "Memory Usage"],
     datasets: [

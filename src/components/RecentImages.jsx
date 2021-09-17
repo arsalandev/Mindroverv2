@@ -19,7 +19,7 @@ const RecentImages = (props) => {
   const pictureChangeHandler = (i) => {
     history.push("/dashboardone");
     const mydata = Data[i];
-    //  console.log(mydata);
+    // console.log("from recent images", mydata);
     props.onSavePictureData(mydata);
   };
 
@@ -68,7 +68,7 @@ const RecentImages = (props) => {
                 <Swiper
                   slidesPerView={1}
                   autoplay={true}
-                  pagination
+                  // pagination
                   className="w-100"
                 >
                   {data.imagesUrls?.map((img, i) => (

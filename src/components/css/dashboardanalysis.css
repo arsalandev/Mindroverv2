@@ -1,6 +1,5 @@
 .dashboard-analysis-card{
-    max-height: 465px;
-    height: 100%;
+    height: 480px;
     /* overflow-y: auto; */
     padding: 1rem;
 }

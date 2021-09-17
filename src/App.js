@@ -11,15 +11,12 @@ import RecentImages from "./components/RecentImages";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
-
-  let dataSend = null;  
+  let dataSend = [];
 
   const savePictureData2 = (incomingData2) => {
-    console.log("from app.js", incomingData2);
+    // console.log("from app.js", incomingData2);
     dataSend = incomingData2;
   };
-
-  
 
   const preLogin = () => {
     return (
@@ -38,7 +35,7 @@ function App() {
         <PostLoginHeader />
         <Route exact path="/postlogin" component={PostLogin} />
         <Route exact path="/dashboardone">
-          <DashboardOne sendingPictureData={dataSend}/>
+          <DashboardOne sendingPictureData={dataSend} />
         </Route>
         <Route exact path="/picturedashboard">
           <PictureDashboard onSavePictureData2={savePictureData2} />

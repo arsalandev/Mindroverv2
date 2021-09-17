@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Row, Col, Container } from "react-bootstrap";
 import "./css/dashboardanalysis.css";
 import Data from "./Data/mindRoverSingleData.json";
@@ -6,6 +6,7 @@ import Data2 from "./Data/mindRoverData.json";
 import { FaRegFilePdf } from "react-icons/fa";
 
 const DashboardAnalysis = (props) => {
+
   const dataRecieved = props.onlyImage;
 
   return (
@@ -14,9 +15,22 @@ const DashboardAnalysis = (props) => {
         <Card className="dashboard-analysis-card">
           <Row>
             <Col xxl={10} xl={10} lg={10} md={10} sm={10}>
-          
-                <Card.Img variant="top" style={{height: '300px'}} src={dataRecieved.imagesUrls} />
-             
+              {/* <Card.Img
+                variant="top"
+                style={{ height: "350px" }}
+                src={dataRecieved.imagesUrls}
+              /> */}
+              {dataRecieved.count === 1 ? (<div>
+                <Card.Img
+                variant="top"
+                style={{ height: "350px" }}
+                src={dataRecieved.imagesUrls}
+              />
+              </div>) : (<div> <Card.Img
+                variant="top"
+                style={{ height: "350px" }}
+                src={dataRecieved.imagesUrls[0]}
+              /></div>)}
             </Col>
             <Col xxl={2} xl={2} lg={2} md={2} sm={2}>
               <div className="d-flex justify-content-center">

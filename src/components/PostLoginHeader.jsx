@@ -12,8 +12,21 @@ const PostLoginHeader = () => {
         <Container fluid>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
+            
             <Nav className="me-auto">
-              <Nav.Link href="#features">
+              <div className={`sidebar`}>
+                <div className="sidebar-header">
+              <button>click</button>
+              </div>
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+              </ul>
+              </div>
+              <div className="sidebar-toggle">
+              <Nav.Link href="">
                 <label htmlFor="file-input">
                   <BsCloudUpload style={{ color: "white" }} /> Upload Image
                 </label>
@@ -23,7 +36,9 @@ const PostLoginHeader = () => {
                   type="file"
                 />
               </Nav.Link>
+              </div>
             </Nav>
+            
             <Nav>
               <NavDropdown
                 title="Username"
